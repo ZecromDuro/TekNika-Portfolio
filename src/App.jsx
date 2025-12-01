@@ -685,6 +685,46 @@ export default function App() {
             </motion.div>
           </section>
 
+          {/* ======================================= */}
+          {/* NOUVELLE SECTION : PROFIL TECHNIQUE (ABOUT) */}
+          {/* ======================================= */}
+          <section className='sm:px-16 px-6 sm:py-16 py-10 max-w-7xl mx-auto relative z-0'>
+            <Reveal>
+              <span className='text-xs text-[#0d47ff] font-mono mb-2'>
+                /// PROFIL TEKNIKA
+              </span>
+            </Reveal>
+
+            <h2 className='text-white font-black md:text-5xl sm:text-4xl xs:text-3xl text-3xl mb-4'>
+              Jean Aristide Yao
+            </h2>
+
+            <div className='mt-4 text-gray-400 text-lg max-w-4xl leading-relaxed'>
+              <Reveal delay={0.1}>
+                <p className='mb-4'>
+                  Je m'appelle <strong className='text-white'>Jean Aristide Yao</strong> et, à 26 ans, j'opère à la convergence de l'ingénierie <strong className='text-white'>Full-Stack</strong>, de l'<strong className='text-white'>Expertise IT stratégique</strong> et de l'<strong className='text-white'>Analyse de Données</strong>.
+                </p>
+              </Reveal>
+              <Reveal delay={0.2}>
+                <p className='mb-4'>
+                  Fort de <strong className='text-white'>6 années d'expérience</strong> dans le développement numérique, mon rôle n'est pas de coder, mais de <span className='text-white font-bold'>traduire la complexité en solutions digitales simples, robustes et immédiates</span> pour tout type de problème d'entreprise.
+                </p>
+              </Reveal>
+              <Reveal delay={0.3}>
+                <p className='mb-4'>
+                  Mon expertise s'est affûtée au sein de structures exigeantes et grâce à une pratique intense en freelance, me conférant une vision à 360 degrés sur l'intégralité du cycle de vie d'un projet.
+                </p>
+              </Reveal>
+              <Reveal delay={0.4}>
+                <p>
+                  Je suis particulièrement investi dans les secteurs nécessitant une fiabilité maximale : la <strong className='text-white'>Fintech</strong> et la <strong className='text-white'>Cybersécurité</strong>. Mon engagement est de garantir non seulement la performance, mais surtout l'intégrité et la résilience de vos systèmes.
+                </p>
+              </Reveal>
+            </div>
+          </section>
+
+          <hr className="border-t border-white/5 max-w-7xl mx-auto" />
+
           <section className="py-24 px-6 bg-gradient-to-b from-transparent via-black/90 to-black backdrop-blur-sm">
             <Reveal>
               <h2 className="text-2xl font-bold mb-12 flex items-center gap-3">
