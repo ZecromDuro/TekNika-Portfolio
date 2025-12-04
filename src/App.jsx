@@ -895,17 +895,16 @@ export default function App() {
               <Lock size={24} className="mx-auto text-[#25D366] mb-4" />
               <h2 className="text-3xl font-bold text-white mb-2">On commence quand ?</h2>
               <p className="text-gray-400 mb-8">Ne tournez pas en rond. Ayez un programme.</p>
-              <motion.button
+              <motion.a
+                href="https://wa.me/2250747640441?text=Bonjour%20TekNika,%20on%20peut%20parler%20affaire%20?"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileTap={{ scale: 0.95 }}
-                onClick={() => {
-                  dispatchLog("Tu veux voir clair dedans ?");
-                  // FIX WHATSAPP: Retrait du + pour le format d'URL standard
-                  window.open("https://wa.me/2250747640441?text=Bonjour%20TekNika,%20on%20peut%20parler%20affaire%20?", "_blank");
-                }}
-                className="w-full py-4 bg-[#25D366] hover:bg-[#1ebc57] text-black font-bold text-lg rounded-xl shadow-[0_0_20px_rgba(37,211,102,0.3)] transition-all flex items-center justify-center gap-3"
+                onClick={() => dispatchLog("Tu veux voir clair dedans ?")}
+                className="w-full py-4 bg-[#25D366] hover:bg-[#1ebc57] text-black font-bold text-lg rounded-xl shadow-[0_0_20px_rgba(37,211,102,0.3)] transition-all flex items-center justify-center gap-3 cursor-pointer"
               >
                 Écrire sur WhatsApp
-              </motion.button>
+              </motion.a>
               <div className="mt-8 text-sm text-gray-500 font-mono space-y-2">
                 <p className="whitespace-nowrap">Contact: +225 07 47 64 04 41</p>
                 <p>Mail: Yjeanaristide@gmail.com</p>
